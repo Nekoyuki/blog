@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+ 
+.navbar {
+    background-color: #f0f0f0;
+    /* background-color: #ffffff; */
+    /* border-color: #ffffff; */
+}
+ 
+hr {
+    height: 1px;
+    border: none;
+    border-top: 1px #e0e0e0 solid;
+}

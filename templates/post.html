@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1">
+            date
+        </div>
+        <div class="col-md-11">
+            {{ post.date }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+            name
+        </div>
+        <div class="col-md-11">
+            {{ post.name }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+            title
+        </div>
+        <div class="col-md-11">
+            {{ post.title }}
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-1">
+            body
+        </div>
+        <div class="col-md-11">
+            {{ post.html|safe }}
+        </div>
+    </div>
+
+{% endblock %}
